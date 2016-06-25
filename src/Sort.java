@@ -1,7 +1,4 @@
-import java.util.Comparator;
 import java.util.Random;
-
-import static java.lang.Integer.MAX_VALUE;
 
 /**
  * Created by yasta on 19.06.2016.
@@ -95,7 +92,7 @@ public class Sort {
         }
     }
 
-    //-----------------------InsertSort O(n^2) ---------------------------
+    //-----------------------SelectionSort O(n^2) ---------------------------
 
     public static void selectionSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {

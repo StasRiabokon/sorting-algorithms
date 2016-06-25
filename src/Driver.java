@@ -79,6 +79,7 @@ public class Driver {
 
     public static void main(String[] args) {
 
+
         initArrays();
 
         TreeMap<Long, String> map = new TreeMap<>();
@@ -223,6 +224,7 @@ public class Driver {
             Map.Entry<Long, String> tmp = iterator.next();
             System.out.println(tmp.getValue() + ": " + (double)tmp.getKey()/1000000+" ms");
         }
+
 
         System.out.println("----------------------Resorted Array------------------------");
 
